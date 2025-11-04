@@ -8,4 +8,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public/build',
+        manifest: true,
+        emptyOutDir: true,
+    },
+    base: process.env.APP_ENV === 'production' ? '/build/' : '/',
 });
