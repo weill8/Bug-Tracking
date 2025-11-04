@@ -11,7 +11,14 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://yourprojectdomain.com",
+        "APP_URL": "",
+        "APP_KEY": "base64:UmS25n/tvmqE3oSmtwdSr/eQSSvbPi9b7XpgSkUs6Dw=",
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "tjl217.h.filess.io",
+        "DB_PORT": "3306",
+        "DB_DATABASE": "bug_tracking_system_stiffmake",
+        "DB_USERNAME": "bug_tracking_system_stiffmake",
+        "DB_PASSWORD": "4ff4d6003cdbedb9478f7c080aa316ee499446b0",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
