@@ -13,5 +13,4 @@ export default defineConfig({
         manifest: true,
         emptyOutDir: true,
     },
-    base: process.env.APP_ENV === 'production' ? '/build/' : '/',
 });
